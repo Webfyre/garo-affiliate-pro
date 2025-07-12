@@ -1,0 +1,105 @@
+/* ============================
+   Garo Affiliate Pro - Admin & Dashboard Styles
+   ============================ */
+
+.garo-affiliate-dashboard {
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  background: #f9f9fb;
+  padding: 20px;
+  color: #333;
+}
+
+.garo-affiliate-dashboard h2 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #222;
+}
+
+.garo-affiliate-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.garo-affiliate-stat-box {
+  flex: 1 1 180px;
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 15px 20px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+.garo-affiliate-stat-box h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #0073aa;
+}
+
+.garo-affiliate-stat-box p {
+  margin: 5px 0 0;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #444;
+}
+
+.garo-referral-table,
+.garo-earnings-table {
+  width: 100%;
+  background: #fff;
+  border-collapse: collapse;
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.garo-referral-table th,
+.garo-referral-table td,
+.garo-earnings-table th,
+.garo-earnings-table td {
+  padding: 12px 14px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.garo-referral-table th,
+.garo-earnings-table th {
+  background: #f4f6f9;
+  font-weight: 600;
+  color: #333;
+}
+
+.garo-empty {
+  text-align: center;
+  padding: 30px;
+  font-style: italic;
+  color: #888;
+}
+
+.garo-affiliate-btn {
+  display: inline-block;
+  background: #25d366;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+  margin-top: 15px;
+}
+
+.garo-affiliate-btn:hover {
+  background: #1ebd57;
+}
+
+@media (max-width: 768px) {
+  .garo-affiliate-stats {
+    flex-direction: column;
+  }
+
+  .garo-affiliate-stat-box {
+    width: 100%;
+  }
+}
